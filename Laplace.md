@@ -2,9 +2,9 @@
 
 ## Definition
 If the function $f(t)$ is defined for $t \geq 0$ and is of exponential order, then the Laplace transform of $f(t)$ is defined as the improper integral
-$$```
+$
 F(s) = L\big[f(t)\big] = \int_0^\infty e^{-st} f(t) \, dt
-```$$
+$
 where $s$ is a complex number frequency parameter.
 
 ## Properties
