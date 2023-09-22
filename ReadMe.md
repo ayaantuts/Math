@@ -1,7 +1,8 @@
 # Welcome to the repository
 ## This is a repository for my math notes I've learnt at [Dwarkadas J. Sanghvi College of Engineering](https://www.djsce.ac.in/).
-### I've typed my notes in the form of markdown files.
-### They are divided into branches according to the semester.
+
+#### I've typed my notes in the form of markdown files.
+#### They are divided into branches according to the semester.
 
 ## How to use this repository?
 1. Switch to the branch according to the semester.
