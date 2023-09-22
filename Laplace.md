@@ -38,10 +38,14 @@ if $f(t)$ defined for $t \geq 0$ is :-
 If $L\big[f(t)\big] = F(s)$ then $L\big[e^{at} f(t)\big] = F(s-a)$ and $L\big[e^{-at} f(t)\big] = F(s+a)$
 ___
 ### Second Shifting Theorem
-If $L\big[f(t)\big] = F(s)$, & if $g(t) = \begin{cases}
-f(t - a) &, t > a \\
-0 &, t < a
-\end{cases}$  
+If $L\big[f(t)\big] = F(s)$, & if $
+	g(t) =
+	\begin{cases}
+	f(t - a) &, t > a \\
+	0 &, t < a
+	\end{cases}
+$  
+
 then $L\big[g(t)\big] = e^{-as} F(s)$
 ___
 ### Multiplication by power of t
