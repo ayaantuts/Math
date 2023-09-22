@@ -68,12 +68,60 @@ If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
 
 ### Inverse Laplace Transform of Standard Functions
 1. $L^{-1}\big[\frac{1}{s}\big] = 1$
+
 1. $L^{-1}\big[\frac{1}{s^2}\big] = \frac{t}{1!}$
+
 1. $L^{-1}\big[\frac{1}{s^3}\big] = \frac{t^2}{2!}$
+
 1. $L^{-1}\big[\frac{1}{s^{n+1}}\big] = \frac{t^n}{n!}$ or $L^{-1}\big[\frac{1}{s^{n}}\big] = \frac{t^{n-1}}{(n-1)!}$
+
 1. $L^{-1}\big[\frac{1}{s-\alpha}\big] = e^{\alpha t}$
+
 1. $L^{-1}\big[\frac{1}{s+\alpha}\big] = e^{-\alpha t}$
+
 1. $L^{-1}\big[\frac{1}{(s^2+\alpha^2)}\big] = \frac{\sin(\alpha t)}{\alpha}$
+
 1. $L^{-1}\big[\frac{s}{(s^2+\alpha^2)}\big] = \cos(\alpha t)$
+
 1. $L^{-1}\big[\frac{1}{(s^2-\alpha^2)}\big] = \frac{\sinh(\alpha t)}{\alpha}$
+
 1. $L^{-1}\big[\frac{s}{(s^2-\alpha^2)}\big] = \cosh(\alpha t)$
+
+1. $L^{-1}\big[\frac{1}{(s^2+a^2)^2}\big] = \frac{\sin(\alpha t) - \alpha t \cos(\alpha t)}{2\alpha^3}$
+
+1. $L^{-1}\big[\frac{s}{(s^2+a^2)^2}\big] = \frac{t\sin(\alpha t)}{2\alpha}$
+
+1. $L^{-1}\big[\frac{s^2}{(s^2+a^2)^2}\big] = \frac{\sin(\alpha t) + \alpha t \cos(\alpha t)}{2\alpha}$
+
+1. $L^{-1}\big[\frac{1}{(s^2+a^2)^3}\big] = \cos(\alpha t) - \frac{1}{2}\alpha t\sin(\alpha t)$
+
+1. $L^{-1}\big[\frac{s^2-\alpha^2}{(s^2+\alpha^2)^2}\big]=t\cos(\alpha t)$
+
+1. $L^{-1}\big[\frac{1}{(s^2-\alpha^2)^2}\big] = \frac{at\cosh(\alpha t) - \sinh(\alpha t)}{2\alpha^3}$
+
+1. $L^{-1}\big[\frac{s}{(s^2-\alpha^2)^2}\big] = \frac{t\sinh(\alpha t)}{2\alpha}$
+
+1. $L^{-1}\big[\frac{s^2}{(s^2-\alpha^2)^2}\big] = \frac{\alpha t\cosh(\alpha t) + \sinh(\alpha t)}{2\alpha}$
+
+1. $L^{-1}\big[\frac{s^3}{(s^2-a^2)^2}\big] = \cosh(\alpha t) + \frac{1}{2}\alpha t\sinh(\alpha t)$
+
+1. $L^{-1}\big[\frac{s^2+a^2}{(s^2-a^2)^2}\big] = t\cosh(\alpha t)$
+
+### Linearity Property
+If $F(s) = L\big[f(t)\big]$ and $G(s) = L\big[g(t)\big]$ then
+1. $L^{-1}\big[F(s) \pm G(s)\big] = f(t) \pm g(t)$
+2. $L^{-1}\big[c F(s)\big] = c L^{-1}\big[F(s)\big] $ for any constant $c$.
+
+## Methods to find Inverse Laplace Transform
+### Using above table
+[Inverse Laplace Transform of Standard Functions](#inverse-laplace-transform-of-standard-functions)
+___
+### Using First Shifting Theorem
+If $F(s) = L^{-1}\big[f(t)\big]$ then $L^{-1}\big[F(s - a)\big] = e^{at}f(t)$ and $L^{-1}\big[F(s + a)\big] = e^{-at}f(t)$
+___
+### Using Second Shifting Theorem
+If $`F(s) = L^{-1}\big[f(t)\big]$ then $L^{-1}\big[e^{as} F(s)\big] = g(t) = 
+	\begin{cases}
+	f(t + a) &, t > -a \\
+	0 &, t < -a
+	\end{cases}`$
