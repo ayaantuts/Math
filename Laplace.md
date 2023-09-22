@@ -77,9 +77,3 @@ If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
 1. $L^{-1}\big[\frac{s}{(s^2+\alpha^2)}\big] = \cos(\alpha t) $
 1. $L^{-1}\big[\frac{1}{(s^2-\alpha^2)}\big] = \frac{\sinh(\alpha t)}{\alpha} $
 1. $L^{-1}\big[\frac{s}{(s^2-\alpha^2)}\big] = \cosh(\alpha t) $
-
-<style>
-	:root {
-		font-size: 20px;
-	}
-</style>
