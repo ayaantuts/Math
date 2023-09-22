@@ -110,7 +110,7 @@ If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
 ### Linearity Property
 If $F(s) = L\big[f(t)\big]$ and $G(s) = L\big[g(t)\big]$ then
 1. $L^{-1}\big[F(s) \pm G(s)\big] = f(t) \pm g(t)$
-2. $L^{-1}\big[c F(s)\big] = c L^{-1}\big[F(s)\big] $ for any constant $c$.
+2. $L^{-1}\big[cF(s)\big] = cL^{-1}\big[F(s)\big]$ for any constant $c$.
 
 ## Methods to find Inverse Laplace Transform
 ### Using above table
