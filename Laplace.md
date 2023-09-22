@@ -39,11 +39,11 @@ If $L\big[f(t)\big] = F(s)$ then $L\big[e^{at} f(t)\big] = F(s-a)$ and $L\big[e^
 ___
 ### Second Shifting Theorem
 If $L\big[f(t)\big] = F(s)$, & if
-$`g(t) =
+$$g(t) =
 	\begin{cases}
 	f(t - a) &, t > a \\
 	0 &, t < a
-	\end{cases}`$
+	\end{cases}$$
 
 then $L\big[g(t)\big] = e^{-as} F(s)$
 ___
@@ -73,7 +73,7 @@ If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
 1. $L^{-1}\big[\frac{1}{s^{n+1}}\big] = \frac{t^n}{n!}$ or $L^{-1}\big[\frac{1}{s^{n}}\big] = \frac{t^{n-1}}{(n-1)!}$
 1. $L^{-1}\big[\frac{1}{s-\alpha}\big] = e^{\alpha t}$
 1. $L^{-1}\big[\frac{1}{s+\alpha}\big] = e^{-\alpha t}$
-1. $L^{-1}\big[\frac{1}{(s^2+\alpha^2)}\big] = \frac{\sin(\alpha t)}{\alpha} $
-1. $L^{-1}\big[\frac{s}{(s^2+\alpha^2)}\big] = \cos(\alpha t) $
-1. $L^{-1}\big[\frac{1}{(s^2-\alpha^2)}\big] = \frac{\sinh(\alpha t)}{\alpha} $
-1. $L^{-1}\big[\frac{s}{(s^2-\alpha^2)}\big] = \cosh(\alpha t) $
+1. $L^{-1}\big[\frac{1}{(s^2+\alpha^2)}\big] = \frac{\sin(\alpha t)}{\alpha}$
+1. $L^{-1}\big[\frac{s}{(s^2+\alpha^2)}\big] = \cos(\alpha t)$
+1. $L^{-1}\big[\frac{1}{(s^2-\alpha^2)}\big] = \frac{\sinh(\alpha t)}{\alpha}$
+1. $L^{-1}\big[\frac{s}{(s^2-\alpha^2)}\big] = \cosh(\alpha t)$
