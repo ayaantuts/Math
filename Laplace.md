@@ -2,7 +2,7 @@
 
 ## Definition
 If the function $f(t)$ is defined for $t \geq 0$ and is of exponential order, then the Laplace transform of $f(t)$ is defined as the improper integral  
-$F(s) = L\big[f(t)\big] = \int_0^\infty e^{-st} f(t) dt$,
+$F(s) = L\big[f(t)\big] = \int_0^\infty e^{-st} f(t) \ dt$,
 where $s$ is a complex number frequency parameter.
 ___
 
@@ -27,7 +27,7 @@ ___
 
 1. $L\big[\cosh(\alpha t)\big] = \frac{s}{s^2 - \alpha^2}$
 
-1. $L\big[erf (\sqrt t)] = \frac{1}{s \sqrt {s + 1}}$ where $erf(\sqrt t) = \frac{2}{\sqrt \pi} \int_0^t e^{-u^2} \, du$
+1. $L\big[erf (\sqrt t)] = \frac{1}{s \sqrt {s + 1}}$ where $erf(\sqrt t) = \frac{2}{\sqrt \pi} \int_0^t e^{-u^2} \ du$
 ___
 
 ## Linearity Property
@@ -57,7 +57,7 @@ If $L\big[f(t)\big] = F(s)$ then $L\big[t^n f(t)\big] = (-1)^n \frac{d^n}{ds^n} 
 ___
 
 ### Division by t
-If $L\big[f(t)\big] = F(s)$ then $L\big[\frac{f(t)}{t}\big] = \int_s^\infty F(s) ds$
+If $L\big[f(t)\big] = F(s)$ then $L\big[\frac{f(t)}{t}\big] = \int_s^\infty F(s) \ ds$
 ___
 
 ### Laplace Transform of Derivative
@@ -65,7 +65,7 @@ If $L\big[f(t)\big] = F(s)$ then $L\big[\frac{d^n(f(t))}{dt^n}\big] = s^n F(s) -
 ___
 
 ### Laplace Transform of Integral &rarr; **Definite Integrals only**
-If $L\big[f(t)\big] = F(s)$ then $L\big[\int_0^t f(u) \, du\big] = \frac{1}{s} F(s)$
+If $L\big[f(t)\big] = F(s)$ then $L\big[\int_0^t f(u) \ du\big] = \frac{1}{s} F(s)$
 ___
 
 ### Change of Scalar Theorem
@@ -151,10 +151,10 @@ $L^{-1}\big[F(s)\big] = t L^{-1}\big[\int_s^\infty F(s) ds\big]$
 ___
 
 ### Using Laplace Transform of Derivative
-Let $L^{-1}\big[F(s)\big] = f(t) \& f(0) = 0$ then $L^{-1}\big[sF(s)\big] = \frac{d(f(t))}{dt}$
+Let $L^{-1}\big[F(s)\big] = f(t)$ & $f(0) = 0$ then $L^{-1}\big[sF(s)\big] = \frac{d(f(t))}{dt}$
 
 Similarly, $L^{-1}\big[s^nF(s)\big] = \frac{d^n(f(t))}{dt^n} \cdots f(0) = f'(0) = \cdots = f^{n-1}(0) = 0$
 ___
 
 ### Using Laplace Transform of Integral
-Let $L^{-1}\big[F(s)\big] = f(t)$ then $L^{-1}\big[\frac{F(s)}{s}\big] = \int_0^t f(u) \, du$
+Let $L^{-1}\big[F(s)\big] = f(t)$ then $L^{-1}\big[\frac{F(s)}{s}\big] = \int_0^t f(u) \ du$
