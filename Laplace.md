@@ -120,8 +120,8 @@ ___
 If $F(s) = L^{-1}\big[f(t)\big]$ then $L^{-1}\big[F(s - a)\big] = e^{at}f(t)$ and $L^{-1}\big[F(s + a)\big] = e^{-at}f(t)$
 ___
 ### Using Second Shifting Theorem
-If $F(s) = L^{-1}\big[f(t)\big]$, then $`L^{-1}\big[e^{as} F(s)\big] = g(t) = 
+If $F(s) = L^{-1}\big[f(t)\big]$, then $`L^{-1}\big[e^{-as} F(s)\big] = g(t) = 
 	\begin{cases}
-	f(t + a) &, t > -a \\
-	0 &, t < -a
+	f(t - a) &, t > a \\
+	0 &, t < a
 	\end{cases}`$
