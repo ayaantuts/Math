@@ -4,12 +4,13 @@
 If the function $f(t)$ is defined for $t \geq 0$ and is of exponential order, then the Laplace transform of $f(t)$ is defined as the improper integral  
 $F(s) = L\big[f(t)\big] = \int_0^\infty e^{-st} f(t) \, dt$,
 where $s$ is a complex number frequency parameter.
+___
 
 ## Sufficient Conditions for Existence of Laplace Transform
 if $f(t)$ defined for $t \geq 0$ is :-
 1. Piecewise continuous in the interval $0 \leq t < N$ for every finite $N > 0$.
 1. of exponential order $\alpha$ for some $\alpha > 0$ as $t$ &rarr; $\infty$ then the Laplace transform of $f(t)$ exists for $s > \alpha$.
-
+___
 
 ## Laplace Transforms of Standard Functions
 1. $L\big[1\big] = \frac{1}{s}$
@@ -27,12 +28,12 @@ if $f(t)$ defined for $t \geq 0$ is :-
 1. $L\big[\cosh(\alpha t)\big] = \frac{s}{s^2 - \alpha^2}$
 
 1. $L\big[erf (\sqrt t)] = \frac{1}{s \sqrt {s + 1}}$ where $erf(\sqrt t) = \frac{2}{\sqrt \pi} \int_0^t e^{-u^2} \, du$
-
+___
 ## Linearity Property
 1. $L\big[f(t) \pm g(t)\big] = F(s) \pm G(s)$
 
 1. $L\big[c f(t)\big] = c F(s)$
-
+___
 ## Properties of Laplace theorems
 ### First Shifting Theorem
 If $L\big[f(t)\big] = F(s)$ then $L\big[e^{at} f(t)\big] = F(s-a)$ and $L\big[e^{-at} f(t)\big] = F(s+a)$
@@ -106,14 +107,14 @@ If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
 1. $L^{-1}\big[\frac{s^3}{(s^2-a^2)^2}\big] = \cosh(\alpha t) + \frac{1}{2}\alpha t\sinh(\alpha t)$
 
 1. $L^{-1}\big[\frac{s^2+a^2}{(s^2-a^2)^2}\big] = t\cosh(\alpha t)$
-
+___
 ### Linearity Property
 If $F(s) = L\big[f(t)\big]$ and $G(s) = L\big[g(t)\big]$ then
 1. $L^{-1}\big[F(s) \pm G(s)\big] = f(t) \pm g(t)$
 2. $L^{-1}\big[cF(s)\big] = cL^{-1}\big[F(s)\big]$ for any constant $c$.
-
+___
 ## Methods to find Inverse Laplace Transform
-### Using above table
+### Using above formulae
 [Inverse Laplace Transform of Standard Functions](#inverse-laplace-transform-of-standard-functions)
 ___
 ### Using First Shifting Theorem
