@@ -39,23 +39,11 @@ If $L\big[f(t)\big] = F(s)$ then $L\big[e^{at} f(t)\big] = F(s-a)$ and $L\big[e^
 ___
 ### Second Shifting Theorem
 If $L\big[f(t)\big] = F(s)$, & if
-$
-	g(t) =
+$`g(t) =
 	\begin{cases}
 	f(t - a) &, t > a \\
 	0 &, t < a
-	\end{cases}
-$
-
-$\begin{equation}
-Y(i,k) = 
-\left\{
-    \begin{array}{lr}
-        ||R_{k}-R_{i}||^{2}, & \text{if } i \neq k\\
-        ||\triangle_{i}||^{2}, & \text{if } i\leq k
-    \end{array}
-\right\} = yz
-\end{equation}$
+	\end{cases}`$
 
 then $L\big[g(t)\big] = e^{-as} F(s)$
 ___
