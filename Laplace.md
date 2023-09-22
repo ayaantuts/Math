@@ -64,16 +64,16 @@ ___
 ___
 
 ## Inverse Laplace Transform
-### If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
+If $L\big[f(t)\big] = F(s)$, then $f(t) = L^{-1}\big[F(s)\big]$
 
 ### Inverse Laplace Transform of Standard Functions
-1. #### $L^{-1}\big[\frac{1}{s}\big] = 1$
-1. #### $L^{-1}\big[\frac{1}{s^2}\big] = \frac{t}{1!}$
-1. #### $L^{-1}\big[\frac{1}{s^3}\big] = \frac{t^2}{2!}$
-1. #### $L^{-1}\big[\frac{1}{s^{n+1}}\big] = \frac{t^n}{n!}$ or $L^{-1}\big[\frac{1}{s^{n}}\big] = \frac{t^{n-1}}{(n-1)!}$
-1. #### $L^{-1}\big[\frac{1}{s-\alpha}\big] = e^{\alpha t}$
-1. #### $L^{-1}\big[\frac{1}{s+\alpha}\big] = e^{-\alpha t}$
-1. #### $L^{-1}\big[\frac{1}{(s^2+\alpha^2)}\big] = \frac{\sin(\alpha t)}{\alpha} $
-1. #### $L^{-1}\big[\frac{s}{(s^2+\alpha^2)}\big] = \cos(\alpha t) $
-1. #### $L^{-1}\big[\frac{1}{(s^2-\alpha^2)}\big] = \frac{\sinh(\alpha t)}{\alpha} $
-1. #### $L^{-1}\big[\frac{s}{(s^2-\alpha^2)}\big] = \cosh(\alpha t) $
+1. $L^{-1}\big[\frac{1}{s}\big] = 1$
+1. $L^{-1}\big[\frac{1}{s^2}\big] = \frac{t}{1!}$
+1. $L^{-1}\big[\frac{1}{s^3}\big] = \frac{t^2}{2!}$
+1. $L^{-1}\big[\frac{1}{s^{n+1}}\big] = \frac{t^n}{n!}$ or $L^{-1}\big[\frac{1}{s^{n}}\big] = \frac{t^{n-1}}{(n-1)!}$
+1. $L^{-1}\big[\frac{1}{s-\alpha}\big] = e^{\alpha t}$
+1. $L^{-1}\big[\frac{1}{s+\alpha}\big] = e^{-\alpha t}$
+1. $L^{-1}\big[\frac{1}{(s^2+\alpha^2)}\big] = \frac{\sin(\alpha t)}{\alpha} $
+1. $L^{-1}\big[\frac{s}{(s^2+\alpha^2)}\big] = \cos(\alpha t) $
+1. $L^{-1}\big[\frac{1}{(s^2-\alpha^2)}\big] = \frac{\sinh(\alpha t)}{\alpha} $
+1. $L^{-1}\big[\frac{s}{(s^2-\alpha^2)}\big] = \cosh(\alpha t) $
