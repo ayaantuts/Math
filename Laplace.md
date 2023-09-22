@@ -45,7 +45,17 @@ $
 	f(t - a) &, t > a \\
 	0 &, t < a
 	\end{cases}
-$  
+$
+
+$\begin{equation}
+Y(i,k) = 
+\left\{
+    \begin{array}{lr}
+        ||R_{k}-R_{i}||^{2}, & \text{if } i \neq k\\
+        ||\triangle_{i}||^{2}, & \text{if } i\leq k
+    \end{array}
+\right\} = yz
+\end{equation}$
 
 then $L\big[g(t)\big] = e^{-as} F(s)$
 ___
