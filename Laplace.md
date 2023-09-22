@@ -128,11 +128,13 @@ ___
 [Inverse Laplace Transform of Standard Functions](#inverse-laplace-transform-of-standard-functions)
 ___
 
-### Using First Shifting Theorem
+### Using Laplace transform properties
+[Laplace Transform properties](#properties-of-laplace-theorems)
+#### Using First Shifting Theorem
 If $L^{-1}\big[F(s)\big] = f(t)$ then $L^{-1}\big[F(s - a)\big] = e^{at}f(t)$ and $L^{-1}\big[F(s + a)\big] = e^{-at}f(t)$
 ___
 
-### Using Second Shifting Theorem
+#### Using Second Shifting Theorem
 If $L^{-1}\big[F(s)\big] = f(t)$, then $`L^{-1}\big[e^{-as} F(s)\big] = g(t) = 
 	\begin{cases}
 	f(t - a) &, t > a \\
@@ -140,21 +142,30 @@ If $L^{-1}\big[F(s)\big] = f(t)$, then $`L^{-1}\big[e^{-as} F(s)\big] = g(t) =
 	\end{cases}`$
 ___
 
-### Using Multiplication by power of t
+#### Using Multiplication by power of t
 $L^{-1}\big[F(s)\big] = \frac{-1}{t}L^{-1}\big[\frac{d(F(s))}{ds}\big]$
 
 Similarly, $L^{-1}\big[\frac{d^n(F(s))}{ds^n}\big] = (-1)^n t^n L^{-1}\big[F(s)\big]$
 ___
 
-### Using Division by t
+#### Using Division by t
 $L^{-1}\big[F(s)\big] = t L^{-1}\big[\int_s^\infty F(s) ds\big]$
 ___
 
-### Using Laplace Transform of Derivative
+#### Using Laplace Transform of Derivative
 Let $L^{-1}\big[F(s)\big] = f(t)$ & $f(0) = 0$ then $L^{-1}\big[sF(s)\big] = \frac{d(f(t))}{dt}$
 
 Similarly, $L^{-1}\big[s^nF(s)\big] = \frac{d^n(f(t))}{dt^n} \cdots f(0) = f'(0) = \cdots = f^{n-1}(0) = 0$
 ___
 
-### Using Laplace Transform of Integral
+#### Using Laplace Transform of Integral
 Let $L^{-1}\big[F(s)\big] = f(t)$ then $L^{-1}\big[\frac{F(s)}{s}\big] = \int_0^t f(u) \ du$
+___
+
+### By partial fractions expansions
+
+## Convolution theorem
+### Definition of convolution theorem of two functions
+If $L\big[f(t)\big] = F(s)$ and $L\big[g(t)\big] = G(s)$ then $L\big[f(t) * g(t)\big] = F(s)G(s)$
+
+where $f(t) * g(t) = \int_0^t f(u)g(t-u) \ du$ is the convolution of $f(t)$ and $g(t)$
