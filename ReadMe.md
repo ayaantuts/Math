@@ -37,5 +37,6 @@ They are divided into branches according to the semester.
 	1. Click on `Math setting`.
 	1. Click on `Zoom Trigger`.
 	1. Click on `Click`. (or any other option you want)
+	1. *(Optional)* Click on `Zoom Factor` and set the zoom factor. (preferably 150%)
 
 1. Now, to zoom in on a formula, click on it (or the trigger you set).
