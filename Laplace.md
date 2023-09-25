@@ -339,7 +339,7 @@ $ \therefore \delta(t - a) = H'(t - a) $
 
 ___
 
-### Shifting property of [`$\delta(t - a)$`](#definition-of-dirac-delta-function)
+### Shifting property of [$`\delta(t - a)`$](#definition-of-dirac-delta-function)
 #### Theorem
 $\int_0^\infty f(t) \delta(t - a) \ dt = f(a)$, where 
 $`\delta(t - a) = \lim_{\epsilon \rightarrow 0} F(t), F(t) = \begin{cases}
