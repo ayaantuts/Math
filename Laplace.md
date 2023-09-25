@@ -144,12 +144,12 @@ ___
 
 ### Using Laplace transform properties
 [Laplace Transform properties](#properties-of-laplace-theorems)
-#### Using First Shifting Theorem
+#### Using [First Shifting Theorem](#first-shifting-theorem)
 If $L^{-1}\big[F(s)\big] = f(t)$ then $L^{-1}\big[F(s - a)\big] = e^{at}f(t)$ and $L^{-1}\big[F(s + a)\big] = e^{-at}f(t)$
 
 ___
 
-#### Using Second Shifting Theorem
+#### Using [Second Shifting Theorem](#second-shifting-theorem)
 If $L^{-1}\big[F(s)\big] = f(t)$, then $`L^{-1}\big[e^{-as} F(s)\big] = g(t) = 
 	\begin{cases}
 	f(t - a) &, t > a \\
@@ -158,26 +158,26 @@ If $L^{-1}\big[F(s)\big] = f(t)$, then $`L^{-1}\big[e^{-as} F(s)\big] = g(t) =
 
 ___
 
-#### Using Multiplication by power of t
+#### Using [Multiplication by power of t](#multiplication-by-power-of-t)
 $L^{-1}\big[F(s)\big] = \frac{-1}{t}L^{-1}\big[\frac{d(F(s))}{ds}\big]$
 
 Similarly, $L^{-1}\big[\frac{d^n(F(s))}{ds^n}\big] = (-1)^n t^n L^{-1}\big[F(s)\big]$
 
 ___
 
-#### Using Division by t
+#### Using [Division by t](#division-by-t)
 $L^{-1}\big[F(s)\big] = t L^{-1}\big[\int_s^\infty F(s) ds\big]$
 
 ___
 
-#### Using Laplace Transform of Derivative
+#### Using [Laplace Transform of Derivative](#laplace-transform-of-derivative)
 Let $L^{-1}\big[F(s)\big] = f(t)$ & $f(0) = 0$ then $L^{-1}\big[sF(s)\big] = \frac{d(f(t))}{dt}$
 
 Similarly, $L^{-1}\big[s^nF(s)\big] = \frac{d^n(f(t))}{dt^n} \cdots f(0) = f'(0) = \cdots = f^{n-1}(0) = 0$
 
 ___
 
-#### Using Laplace Transform of Integral
+#### Using [Laplace Transform of Integral](#laplace-transform-of-integral) &rarr; **Definite Integrals only**
 Let $L^{-1}\big[F(s)\big] = f(t)$ then $L^{-1}\big[\frac{F(s)}{s}\big] = \int_0^t f(u) \ du$
 
 ___
@@ -226,8 +226,10 @@ $L\big[f(t)\big] = \frac{1}{1-e^{-sT}} \int_0^T e^{-st} f(t) \ dt$
 
 ___
 
-## Laplace Transform of Heaviside unit step Function ($H(t)$ or $U(t)$)
+## Laplace Transform of Heaviside unit step Function
 ### Definition of Heaviside unit step Function
+Denoted by $H(t)$ or $U(t)$
+
 $`H(t) = 
 	\begin{cases}
 	0 &, t < 0 \\
@@ -247,7 +249,7 @@ ___
 
 ### Laplace transform of a function using heaviside unit step function
 If a given function is not defined in the interval $(0, \infty)$, but it is defined in, say $(0, a), (0, b), (b, \infty)$
-Then, by using heaviside unit step function, it can be extended to the interval $(0, \infty)$
+Then, by using [heaviside unit step function](#definition-of-heaviside-unit-step-function), it can be extended to the interval $(0, \infty)$
 
 ___
 
@@ -282,7 +284,7 @@ where $`g(t) =
 		f(t) &, a < t < \infty
 		\end{cases}`$
 
-#### Formula for Laplace transform of [$H(t)$](#definition-of-heaviside-unit-step-function)
+#### Formula for Laplace transform of [Heaviside unit step function](#definition-of-heaviside-unit-step-function)
 
 1. $L\big[H(t)\big] = \frac{1}{s}$
 
@@ -294,7 +296,7 @@ where $`g(t) =
 
 1. $L\big[f(t)H(t-a)\big] = e^{-as}\big[L\big[f(t)\big] - L\big[f(t-a)\big]\big]$
 
-## Laplace Transform of Dirac Delta Function ($\delta(t)$)
+## Laplace Transform of Dirac Delta Function
 ### Definition of Dirac Delta Function
 Consider the function F(t) defined by
 
@@ -312,14 +314,14 @@ Imp note about why $\delta(t - a)$ is called unit impulse function is that, $\in
 
 ___
 
-### Laplace Transform of Dirac Delta Function
+### Laplace Transform of [Dirac Delta Function](#definition-of-dirac-delta-function)
 1. $L\big[\delta(t - a)\big] = e^{-as}$
 
 1. $L\big[\delta(t)\big] = 1$
 
 ___
 
-### Relation between Heaviside unit step function and Dirac delta function
+### Relation between [Heaviside unit step function](#definition-of-heaviside-unit-step-function) and [Dirac delta function](#definition-of-dirac-delta-function)
 We have
 $`F(t) = \begin{cases}
 		0 &, 0 < t < a \\
@@ -339,7 +341,7 @@ $ \therefore \delta(t - a) = H'(t - a) $
 
 ___
 
-### Shifting property of [$$\delta(t - a)$$](#definition-of-dirac-delta-function)
+### Shifting property of [Dirac delta function](#definition-of-dirac-delta-function)
 #### Theorem
 $\int_0^\infty f(t) \delta(t - a) \ dt = f(a)$, where 
 $`\delta(t - a) = \lim_{\epsilon \rightarrow 0} F(t), F(t) = \begin{cases}
@@ -352,3 +354,7 @@ $`\delta(t - a) = \lim_{\epsilon \rightarrow 0} F(t), F(t) = \begin{cases}
 $L\big[f(t)\delta(t - a)\big] = e^{-as} f(a)$
 
 If a = 0, then $L\big[f(t)\delta(t)\big] = f(0)$
+
+___
+
+# THE END
