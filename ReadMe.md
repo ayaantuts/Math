@@ -8,7 +8,7 @@ They are divided into branches according to the semester.
 1. Switch to the branch according to the semester.
 
 1. Click on the file you want to read. 
-**If the formulae are very small, you can zoom in by clicking on them.**
+**If the formulae are harder to read, follow [these steps](#how-to-read-the-formulae).**
 
 1. You can also download the file by clicking on the download button on the top right corner of the file.
 
@@ -30,3 +30,12 @@ They are divided into branches according to the semester.
 1. Make a pull request.
 
 1. Wait for the pull request to be merged.
+
+## How to read the formulae?
+1. First, we need to set a zoom trigger. This could be done only once.
+	1. Right-click on one of the formulae.
+	1. Click on `Math setting`.
+	1. Click on `Zoom Trigger`.
+	1. Click on `Click`. (or any other option you want)
+
+1. Now, to zoom in on a formula, click on it (or the trigger you set).
