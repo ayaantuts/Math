@@ -333,11 +333,11 @@ $F(t) = \frac{1}{\epsilon} H(t-a) - \frac{1}{\epsilon} H(t-a-\epsilon)$
 
 $\delta(t-a) = \lim_{\epsilon \rightarrow 0} F(t)$
 
-$ = \lim_{\epsilon \rightarrow 0} \frac{1}{\epsilon} H(t-a) - \lim_{\epsilon \rightarrow 0} \frac{1}{\epsilon} H(t-a-\epsilon)$
+$`\ = \lim_{\epsilon \rightarrow 0} \frac{1}{\epsilon} H(t-a) - \lim_{\epsilon \rightarrow 0} \frac{1}{\epsilon} H(t-a-\epsilon)`$
 
-$ = \frac{H(t-a) - H(t-a-\epsilon)}{\epsilon}$
+$`\ = \frac{H(t-a) - H(t-a-\epsilon)}{\epsilon}`$
 
-$ \therefore \delta(t - a) = H'(t - a) $
+$`\ \therefore \delta(t - a) = H'(t - a)`$
 
 ___
 
