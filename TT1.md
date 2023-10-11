@@ -51,11 +51,12 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 		- Introduction, need of Data Structures, Types of Data Structures, Abstract Data Types (ADT)
 2. Linear Data Structures
 	- LIST:
-		- List as an ADT, Array-based implementation, Linked List implementation, singly linked lists, circular linked lists, doubly linked lists, All operations (Insertion, Deletion, Merge, Traversal, etc.) and their analysis, Applications of linked lists - (Polynomial Addition).
+		- List as an ADT, Array-based implementation, Linked List implementation, singly linked lists, All operations (Insertion, Deletion, Merge, Traversal, etc.)
 	- STACK:
-		- Stack as an ADT, Operations, Array and Linked List representation of Stack, Applications – Reversing data, Conversion of Infix to prefix and postfix expression, Evaluation of postfix and prefix expressions, balanced parenthesis, etc.
+		- Stack as an ADT, Operations, Array and Linked List representation of Stack
+		- Applications: Reversing data, Conversion of Infix to prefix and postfix expression, Evaluation of postfix and prefix expressions, Balanced parenthesis, etc.
 	- QUEUE:
-		- Queue as an ADT, Operations, Implementation of Linear Queue, Circular and Priority Queue using arrays and Linked List, DEQueue, Applications – Queue Simulation
+		- Queue as an ADT, Circular Queue operations
 
 ## DIS
 1. Sets and Logic:
