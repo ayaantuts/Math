@@ -90,4 +90,4 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 	- Logic simplifications using Quine-McClusky Method
 	- functions realization using basic gates and universal gates.
 1. Combinational Logic Design: 
-	- Introduction, Half and Full Adder, Half subtractor, Full Subtractor
+	- Introduction, Half and Full Adder, Half subtractor, Full Subtractor, 1-bit and 2-bit Magnitude comparator.
