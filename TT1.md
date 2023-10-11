@@ -30,7 +30,6 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 ## DBMS
 1. Database Concepts:
 	- Introduction, Characteristics of databases, File system v/s Database system, Users of Database system, Schema and Instance, Data Independence, DBMS system architecture, Database Administrator.
-
 1. Entity–Relationship Model:
 	- The Entity-Relationship (ER) Model:
 		- Entity types:
@@ -39,7 +38,6 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 			- Cardinality and Participation
 		- Extended Entity-Relationship (EER) Model:
 			- Generalization, Specialization and Aggregation, Mapping ER to Relations
-
 1. Structured Query Language (SQL):
 	- Overview of SQL, DDL commands, DML commands, Simple Queries, Aggregate Functions, Joins
 
@@ -49,7 +47,7 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 		- Algorithms, Characteristics of an Algorithm, Time and Space Complexities, Order of Growth functions, Preliminary Asymptotic Notations.
 	- Data Structures:
 		- Introduction, need of Data Structures, Types of Data Structures, Abstract Data Types (ADT)
-2. Linear Data Structures
+1. Linear Data Structures
 	- LIST:
 		- List as an ADT, Array-based implementation, Linked List implementation, singly linked lists, All operations (Insertion, Deletion, Merge, Traversal, etc.)
 	- STACK:
@@ -67,7 +65,7 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 		- Introduction to First Order Predicate Logic
 		- Inference Rules:
 			- Universal and Existential instantiation, Universal and Existential generalization, Universal Modus Ponens, Universal Modus Tollens, Multiple Quantifiers, Negation of more than one variable
-2. Relations, Posets and Lattices 
+1. Relations, Posets and Lattices 
 	- Introduction:
 		- Relations and their properties, Paths and Digraphs, Types of binary relations, Operations on relations, Equivalence relations: Closures, Warshall’s algorithm, Composition of relations.
 		- Introduction to Fuzzy Relations. Properties of Fuzzy relations, Fuzzy composition of relations: Max-min composition and Max-product composition
