@@ -33,7 +33,7 @@ In general, $f(x+nT) = f(x) \forall x$.
 The Fourier expansion of $f(x)$ expanded in $(c, c + 2\pi)$ is given by
 $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} + b_n \sin{nx} \right]$$
 where $a_0$, $a_n$ and $b_n$ are called the Fourier constants and are given by
-$$a_0 = \frac{1}{\pi} \int_c^{c+2\pi} f(x) \, dx ,\quad a_n = \frac{1}{\pi} \int_c^{c+2\pi} f(x) \cos{nx} \, dx ,\quad b_n = \frac{1}{\pi} \int_c^{c+2\pi} f(x) \sin{nx} \, dx$$
+$$a_0 = \frac{1}{\pi} \int_c^{c+2\pi} f(x) \ dx ,\quad a_n = \frac{1}{\pi} \int_c^{c+2\pi} f(x) \cos{nx} \ dx ,\quad b_n = \frac{1}{\pi} \int_c^{c+2\pi} f(x) \sin{nx} \ dx$$
 
 ## Dirichlet's Conditions for Fourier Series expansion
 Suppose $f(x)$ is defined in $(c, c + 2\pi)$ is periodic with period $2\pi$. The conditions are
@@ -51,4 +51,4 @@ $f(x)$ is defined in $(0, 2\pi)$ (also known as **Full range series**)
 Then, the Fourier series is given by,
 $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} + b_n \sin{nx} \right]$$
 where
-$$a_0 = \quad \frac{1}{\pi} \int_0^{2\pi} f(x) \, dx, \quad a_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \cos{nx} \, dx, \quad b_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \sin{nx} \, dx$$
+$$a_0 = \quad \frac{1}{\pi} \int_0^{2\pi} f(x) \ dx, \quad a_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \cos{nx} \ dx, \quad b_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \sin{nx} \ dx$$
