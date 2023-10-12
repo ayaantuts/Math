@@ -25,7 +25,6 @@ COI (Online) | 18/10/2022 | 1:30 - 2:30 PM
 1. Fourier series:
 	1. Dirichlet’s conditions, Fourier series of periodic functions with period $2\pi$ and $2L$. 
 	1. Fourier series for even and odd functions.
-	1. Half range sine and cosine series, Parsevel’s identities (without proof)
 
 ## DBMS
 1. Database Concepts:
