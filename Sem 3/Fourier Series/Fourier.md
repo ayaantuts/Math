@@ -43,7 +43,7 @@ Suppose $f(x)$ is defined in $(c, c + 2\pi)$ is periodic with period $2\pi$. The
 
 then, the Fourier series of $f(x)$ converges to $\frac12\big[f(x^+) + f(x^-)\big]$ for every value of x.
 
-**Note:** If a function has $\infty$ discontinuities and thus, does not possess a Fourier Series expansion. Thus, $\tan{x}$ does not have a Fourier Series expansion.
+**Note:** If a function has $\infty$ discontinuities does not possess a Fourier Series expansion. Thus, $\tan{x}$ does not have a Fourier Series expansion.
 
 ### If c = 0
 $f(x)$ is defined in $(0, 2\pi)$ (also known as **Full range series**)
