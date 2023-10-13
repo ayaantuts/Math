@@ -8,6 +8,10 @@ They are divided into branches according to the semester.
 1. Open the topic from the chapter corresponding to the semester.
 *An overview of the topics has been given in the [Outline.md](Outline.md) file.*
 
+*Also, the topics are arranged in the order they were taught in the college.*
+
+*The overview(TOC) of the chapters can be found by clicking the `Outline` button on the top right corner of the file.*
+
 1. Click on the file you want to read. 
 **If the formulae are harder to read, follow [these steps](#how-to-read-the-formulae).**
 
