@@ -9,25 +9,25 @@ A function $f(x)$ is said to be periodic if there exists a positive real number 
 In general, $f(x+nT) = f(x) \forall x$.
 
 ## Some important results of Integration
-1. $$\int_c^{c+2\pi} \cos{mx} \cos{nx} \, dx =
+$$1. \int_c^{c+2\pi} \cos{mx} \cos{nx} \, dx =
 	\begin{cases}
 	0 &, m \neq n \\
 	2\pi &, m = n = 0 \\
 	\pi &, m = n \\
 	\end{cases}$$
-1. $$\int_c^{c+2\pi} \sin{mx} \sin{nx} \, dx =
+$$2. \int_c^{c+2\pi} \sin{mx} \sin{nx} \, dx =
 	\begin{cases}
 	0 &, m \neq n \\
 	0 &, m = n = 0 \\
 	\pi &, m = n \\
 	\end{cases}$$
-1. $$\int_c^{c+2\pi} \sin{mx} \cos{nx} \, dx = 0\ \forall\ m,n $$
-1. $$\int_c^{c+2\pi} \cos{mx} = 
+$$3. \int_c^{c+2\pi} \sin{mx} \cos{nx} \, dx = 0\ \forall\ m,n $$
+$$4. \int_c^{c+2\pi} \cos{mx} = 
 	\begin{cases}
 	0 &, m > 0 \\
 	2\pi &, m = 0 \\
 	\end{cases}$$
-1. $$\int_c^{c+2\pi} \sin{mx} = 0\ \forall\ m$$
+$$5. \int_c^{c+2\pi} \sin{mx} = 0\ \forall\ m$$
 
 ## Euler's Formula to determine the Fourier constants
 The Fourier expansion of $f(x)$ expanded in $(c, c + 2\pi)$ is given by
