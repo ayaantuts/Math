@@ -94,8 +94,8 @@ A function $f(x)$ is said to be odd if $f(-x) = -f(x) \forall x$.
 ## Half range series (period = &pi;)
 The function $f(x)$ is defined in $(0, \pi)$ and is extended to $(-\pi, 0)$ as an even or odd function.
 
-### Even extension
-Let $f(x)$ be defined in $(0, \pi)$
+### Even extension (Half range cosine series)
+1. Let $f(x)$ be defined in $(0, \pi)$
 
 $$F(x) = 
 	\begin{cases}
@@ -104,3 +104,55 @@ $$F(x) =
 	\end{cases}$$
 
 Then, the Fourier series is given by,
+$$F(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} \right]$$
+where
+$$a_0 = \quad \frac{2}{\pi} \int_0^{\pi} f(x) \ dx, \quad a_n = \frac{2}{\pi} \int_0^{\pi} f(x) \cos{nx} \ dx$$
+
+1. Let $f(x)$ be defined in $(0, L)$
+
+$$F(x) = 
+	\begin{cases}
+	f(x) &, 0 < x < L \\
+	f(-x) &, -L < x < 0 \\
+	\end{cases}$$
+
+Then, the Fourier series is given by,
+$$F(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{\left(\frac{n\pi x}{L}\right)} \right]$$
+where
+$$a_0 = \quad \frac{2}{L} \int_0^{L} f(x) \ dx, \quad a_n = \frac{2}{L} \int_0^{L} f(x) \cos{\left(\frac{n\pi x}{L}\right)} \ dx$$
+
+### Odd extension (Half range sine series)
+1. Let $f(x)$ be defined in $(0, \pi)$
+
+$$F(x) = 
+	\begin{cases}
+	f(x) &, 0 < x < \pi \\
+	-f(-x) &, -\pi < x < 0 \\
+	\end{cases}$$
+
+Then, the Fourier series is given by,
+$$F(x) = \sum_{n=1}^{\infty} \left[ b_n \sin{nx} \right]$$
+where
+$$b_n = \frac{2}{\pi} \int_0^{\pi} f(x) \sin{nx} \ dx$$
+
+1. Let $f(x)$ be defined in $(0, L)$
+
+$$F(x) = 
+	\begin{cases}
+	f(x) &, 0 < x < L \\
+	-f(-x) &, -L < x < 0 \\
+	\end{cases}$$
+
+Then, the Fourier series is given by,
+$$F(x) = \sum_{n=1}^{\infty} \left[ b_n \sin{\left(\frac{n\pi x}{L}\right)} \right]$$
+where
+$$b_n = \frac{2}{L} \int_0^{L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
+
+## Parseval's Identity
+### For interval (-L, L)
+If the Fourier series of $f(x)$ is defined in $(-L, L)$ coverges uniformly to $f(x)$, then
+$$\frac{1}{L}\int_{-L}^{L} \left[f(x)\right]^2 \ dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty} \left[ a_n^2 + b_n^2 \right]$$
+
+### For interval (-&pi;, &pi;)
+If the Fourier series of $f(x)$ is defined in $(-\pi, \pi)$ coverges uniformly to $f(x)$, then
+$$\frac{1}{\pi}\int_{-\pi}^{\pi} \left[f(x)\right]^2 \ dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty} \left[ a_n^2 + b_n^2 \right]$$
