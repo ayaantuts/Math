@@ -97,10 +97,10 @@ The function $f(x)$ is defined in $(0, \pi)$ and is extended to $(-\pi, 0)$ as a
 ### Even extension
 Let $f(x)$ be defined in $(0, \pi)$
 
-$$`F(x) = 
+$$F(x) = 
 	\begin{cases}
 	f(x) &, 0 < x < \pi \\
 	f(-x) &, -\pi < x < 0 \\
-	\end{cases}`$$
+	\end{cases}$$
 
 Then, the Fourier series is given by,
