@@ -54,6 +54,8 @@ $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} + b_n \sin{nx} 
 where
 $$a_0 = \quad \frac{1}{\pi} \int_0^{2\pi} f(x) \ dx, \quad a_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \cos{nx} \ dx, \quad b_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \sin{nx} \ dx$$
 
+___
+
 ### If c = -&pi;
 $f(x)$ is defined in $(-\pi, \pi)$
 
@@ -62,17 +64,23 @@ $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} + b_n \sin{nx} 
 where
 $$a_0 = \quad \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \ dx, \quad a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \cos{nx} \ dx, \quad b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \sin{nx} \ dx$$
 
+___
+
 ### If f(x) is defined in (0, 2L)
 Then, the Fourier series is given by,
 $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{\left(\frac{n\pi x}{L}\right)} + b_n \sin{\left(\frac{n\pi x}{L}\right)} \right]$$
 where
 $$a_0 = \quad \frac{1}{L} \int_0^{2L} f(x) \ dx, \quad a_n = \frac{1}{L} \int_0^{2L} f(x) \cos{\left(\frac{n\pi x}{L}\right)} \ dx, \quad b_n = \frac{1}{L} \int_0^{2L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
 
+___
+
 ### If f(x) is defined in (-L, L)
 Then, the Fourier series is given by,
 $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{\left(\frac{n\pi x}{L}\right)} + b_n \sin{\left(\frac{n\pi x}{L}\right)} \right]$$
 where
 $$a_0 = \quad \frac{1}{L} \int_{-L}^{L} f(x) \ dx, \quad a_n = \frac{1}{L} \int_{-L}^{L} f(x) \cos{\left(\frac{n\pi x}{L}\right)} \ dx, \quad b_n = \frac{1}{L} \int_{-L}^{L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
+
+___
 
 ## Even and odd functions
 ### Even function (symmetric about y-axis)
@@ -152,6 +160,8 @@ $$b_n = \frac{2}{L} \int_0^{L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
 ### For interval (-L, L)
 If the Fourier series of $f(x)$ is defined in $(-L, L)$ coverges uniformly to $f(x)$, then
 $$\frac{1}{L}\int_{-L}^{L} \left[f(x)\right]^2 \ dx = \frac{a_0^2}{2} + \sum_{n=1}^{\infty} \left[ a_n^2 + b_n^2 \right]$$
+
+___
 
 ### For interval (-&pi;, &pi;)
 If the Fourier series of $f(x)$ is defined in $(-\pi, \pi)$ coverges uniformly to $f(x)$, then
