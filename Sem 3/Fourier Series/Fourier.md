@@ -45,10 +45,62 @@ then, the Fourier series of $f(x)$ converges to $\frac12\big[f(x^+) + f(x^-)\big
 
 **Note:** If a function has $\infty$ discontinuities does not possess a Fourier Series expansion. Thus, $\tan{x}$ does not have a Fourier Series expansion.
 
+## Full range series (period = 2&pi;)
 ### If c = 0
-$f(x)$ is defined in $(0, 2\pi)$ (also known as **Full range series**)
+$f(x)$ is defined in $(0, 2\pi)$
 
 Then, the Fourier series is given by,
 $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} + b_n \sin{nx} \right]$$
 where
 $$a_0 = \quad \frac{1}{\pi} \int_0^{2\pi} f(x) \ dx, \quad a_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \cos{nx} \ dx, \quad b_n = \frac{1}{\pi} \int_0^{2\pi} f(x) \sin{nx} \ dx$$
+
+### If c = -&pi;
+$f(x)$ is defined in $(-\pi, \pi)$
+
+Then, the Fourier series is given by,
+$$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{nx} + b_n \sin{nx} \right]$$
+where
+$$a_0 = \quad \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \ dx, \quad a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \cos{nx} \ dx, \quad b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \sin{nx} \ dx$$
+
+### If f(x) is defined in (0, 2L)
+Then, the Fourier series is given by,
+$$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{\left(\frac{n\pi x}{L}\right)} + b_n \sin{\left(\frac{n\pi x}{L}\right)} \right]$$
+where
+$$a_0 = \quad \frac{1}{L} \int_0^{2L} f(x) \ dx, \quad a_n = \frac{1}{L} \int_0^{2L} f(x) \cos{\left(\frac{n\pi x}{L}\right)} \ dx, \quad b_n = \frac{1}{L} \int_0^{2L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
+
+### If f(x) is defined in (-L, L)
+Then, the Fourier series is given by,
+$$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos{\left(\frac{n\pi x}{L}\right)} + b_n \sin{\left(\frac{n\pi x}{L}\right)} \right]$$
+where
+$$a_0 = \quad \frac{1}{L} \int_{-L}^{L} f(x) \ dx, \quad a_n = \frac{1}{L} \int_{-L}^{L} f(x) \cos{\left(\frac{n\pi x}{L}\right)} \ dx, \quad b_n = \frac{1}{L} \int_{-L}^{L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
+
+## Even and odd functions
+### Even function (symmetric about y-axis)
+A function $f(x)$ is said to be even if $f(-x) = f(x) \forall x$.
+
+### Odd function (symmetric about origin)
+A function $f(x)$ is said to be odd if $f(-x) = -f(x) \forall x$.
+
+### Even and odd functions in Fourier Series
+1. If $f(x)$ in $(-\pi, \pi)$ and even function
+	$$a_0 = \frac{2}{\pi} \int_0^{\pi} f(x) \ dx, \quad a_n = \frac{2}{\pi} \int_0^{\pi} f(x) \cos{nx} \ dx, \quad b_n = 0$$
+1. If $f(x)$ in $(-\pi, \pi)$ and odd function
+	$$a_0 = 0, \quad a_n = 0, \quad b_n = \frac{2}{\pi} \int_0^{\pi} f(x) \sin{nx} \ dx$$
+1. If $f(x)$ in $(-L, L)$ and even function
+	$$a_0 = \frac{2}{L} \int_0^{L} f(x) \ dx, \quad a_n = \frac{2}{L} \int_0^{L} f(x) \cos{\left(\frac{n\pi x}{L}\right)} \ dx, \quad b_n = 0$$
+1. If $f(x)$ in $(-L, L)$ and odd function
+	$$a_0 = 0, \quad a_n = 0, \quad b_n = \frac{2}{L} \int_0^{L} f(x) \sin{\left(\frac{n\pi x}{L}\right)} \ dx$$
+
+## Half range series (period = &pi;)
+The function $f(x)$ is defined in $(0, \pi)$ and is extended to $(-\pi, 0)$ as an even or odd function.
+
+### Even extension
+Let $f(x)$ be defined in $(0, \pi)$
+
+$$`F(x) = 
+	\begin{cases}
+	f(x) &, 0 < x < \pi \\
+	f(-x) &, -\pi < x < 0 \\
+	\end{cases}`$$
+
+Then, the Fourier series is given by,

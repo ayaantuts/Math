@@ -46,4 +46,6 @@ If you are using a computer, you can use the following steps to read the formula
 
 1. To zoom out, click anywhere on the page.
 
-If you are using a mobile phone, you can use the pinch gesture to zoom in and out.
+If you are using a mobile phone, you can use the pinch gesture to zoom in and out. 
+
+**Or you can follow the steps above, remember:- tap and long hold is equivalent to right click**
