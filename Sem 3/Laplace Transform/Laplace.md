@@ -206,7 +206,7 @@ ___
 
 #### To solve system of simultaneous ordinary differential equations.
 1. Take Laplace transform of both sides of the equation.
-1. Solve the resulting simulaneous equations for the Laplace transform.
+1. Solve the resulting simultaneous equations for the Laplace transform.
 1. Take the inverse Laplace transform of both sides of the equation.
 1. Solve the resulting simulaneous equations for the dependent variable.
 
