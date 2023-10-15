@@ -208,7 +208,7 @@ ___
 1. Take Laplace transform of both sides of the equation.
 1. Solve the resulting simultaneous equations for the Laplace transform.
 1. Take the inverse Laplace transform of both sides of the equation.
-1. Solve the resulting simulaneous equations for the dependent variable.
+1. Solve the resulting simultaneous equations for the dependent variable.
 
 ___
 
